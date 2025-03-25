@@ -58,6 +58,10 @@ int main() {
 
     // Exibição dos dados das Cartas
 
+    printf("\nDados das Cartas:\n");
+
+    // Exibição dos dados da Carta 1
+
 
 
     return 0;
