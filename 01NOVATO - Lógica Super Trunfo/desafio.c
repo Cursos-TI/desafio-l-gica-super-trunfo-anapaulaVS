@@ -88,6 +88,10 @@ int main() {
 
      // Comparação das Cartas
 
+     printf("\nComparação de Cartas:\n");
+
+    // Comparando apenas a população
+
 
 
     return 0;
