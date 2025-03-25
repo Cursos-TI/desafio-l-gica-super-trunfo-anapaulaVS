@@ -106,6 +106,6 @@ int main() {
     printf("Valor da Carta 2: %lu habitantes\n", populacaoCidade2);
     }
 
-
+    return 0;
 
 }
