@@ -69,23 +69,43 @@ int main() {
     switch (opcao) {
     case 1:
 
-    // Comparar População
+    // Comparação da População
 
     if (populacaoCidade1 > populacaoCidade2) {
-        printf("\nPopulação: Carta 1 venceu! \n");
-        printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
-        printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
-        }else if (populacaoCidade2 > populacaoCidade1) {
-        printf("\nPopulação: Carta 2 venceu! \n");
-        printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
-        printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
-        }else {
-        printf("\nPopulação: Empate! \n");
-        printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
-        printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
-        }
-        break;
-        case 2:
+    printf("\nPopulação: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+    printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+    }else if (populacaoCidade2 > populacaoCidade1) {
+    printf("\nPopulação: Carta 2 venceu! \n");
+    printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+    printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+    }else {
+    printf("\nPopulação: Empate! \n");
+    printf("Valor da Carta 1: %lu habitantes \n", populacaoCidade1);
+    printf("Valor da Carta 2: %lu habitantes \n", populacaoCidade2);
+    }
+    break;
+    case 2:
+
+    // Comparação da Área
+
+    if (areaCidade1 > areaCidade2) {
+    printf("\nÁrea: Carta 1 venceu! \n");
+    printf("Valor da Carta 1: %.2f km² \n", areaCidade1);
+    printf("Valor da Carta 2: %.2f km² \n", areaCidade2);
+    }else if (areaCidade2 > areaCidade1) {
+    printf("\nÁrea: Carta 2 venceu! \n");
+    printf("Valor da Carta 1: %.2f km² \n", areaCidade1);
+    printf("Valor da Carta 2: %.2f km² \n", areaCidade2);
+    }else {
+    printf("\nÁrea: Empate! \n");
+    printf("Valor da Carta 1: %.2f km² \n", areaCidade1);
+    printf("Valor da Carta 2: %.2f km² \n", areaCidade2);
+    }
+    break;
+    case 3:
+
+
 
 
 
