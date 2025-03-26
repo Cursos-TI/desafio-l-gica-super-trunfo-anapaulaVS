@@ -51,6 +51,12 @@ int main() {
 
     // Cálculo da Densidade Populacional
 
+    densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
+    densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
+
+    int opcao;
+
+
 
 
 
