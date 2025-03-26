@@ -14,6 +14,9 @@ int main() {
     int pontosTuristicosCidade1, pontosTuristicosCidade2;
     float densidadePopulacionalCidade1, densidadePopulacionalCidade2;
 
+    // Leitura dos dados das Cartas
+    // Leitura dos dados da Carta 1
+
 
 
 
