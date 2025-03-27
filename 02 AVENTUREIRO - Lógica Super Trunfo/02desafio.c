@@ -158,7 +158,7 @@ int main() {
     }
     break;
     default:
-    printf("\nOpção inválida! \n");
+    printf("\nOpção Inválida! \n");
     break;
     }
     
