@@ -136,7 +136,7 @@ int main() {
     }else {
     printf("\nNúmero de Pontos Turísticos: Empate! \n");
     printf("Valor da Carta 1: %d pontos \n", pontosTuristicosCidade1);
-    printf("Valor da Carta 2: %d pontos \n", pontosTuristicosCidade2);
+    printf("Valor da Carta 2: %d pontos \n", pontosTuristicosCidade2);   
     }
     break;
     case 5:
