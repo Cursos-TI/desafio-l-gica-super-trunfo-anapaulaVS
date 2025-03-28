@@ -48,12 +48,12 @@ int main() {
     printf("Digite o número de pontos turísticos da Cidade da Carta 2: ");
     scanf(" %d", &pontosTuristicosCidade2);
 
-    // Cálculo da densidade populacional
+    // Cálculo da Densidade Populacional
 
     densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
     densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
 
-    // Menu Interativo para escolha dos atributos
+    // Menu Interativo para escolha dos Atributos
 
     int opcao1, opcao2;
     printf("\nEscolha o primeiro atributo para comparar: \n");
@@ -93,7 +93,7 @@ int main() {
     }
     scanf(" %d", &opcao2);
 
-    // Comparação dos atributos
+    // Comparação dos Atributos
 
     float somaCidade1 = 0, somaCidade2 = 0;
     if (opcao1 == 1) {
@@ -210,7 +210,7 @@ int main() {
     }
     }
 
-    // Exibição do resultado
+    // Exibição do Resultado
 
     printf("\nResultado: \n");
     printf("Carta 1: %s - %s \n", nomeCidade1, codigoCidade1);
