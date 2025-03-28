@@ -14,6 +14,23 @@ int main() {
     int pontosTuristicosCidade1, pontosTuristicosCidade2;
     float densidadePopulacionalCidade1, densidadePopulacionalCidade2;
 
+     // Leitura dos dados da Carta 1
+
+     printf("Digite a primeira letra do país da Carta 1 (escolha de A-H): ");
+     scanf(" %c", &pais1);
+     printf("Digite o código da Carta 1 (%c01-%c04): ", pais1, pais1);
+     scanf(" %s", codigoCidade1);
+     printf("Digite o nome da Cidade da Carta 1: ");
+     scanf(" %49s", nomeCidade1);
+     printf("Digite a população da Cidade da Carta 1: ");
+     scanf(" %lu", &populacaoCidade1);
+     printf("Digite a área da Cidade da Carta 1 (em km²): ");
+     scanf(" %f", &areaCidade1);
+     printf("Digite o PIB da Cidade da Carta 1 (em bilhões de reais): ");
+     scanf(" %f", &pibCidade1);
+     printf("Digite o número de pontos turísticos da Cidade da Carta 1: ");
+     scanf(" %d", &pontosTuristicosCidade1);
+
 
     return 0;
 
