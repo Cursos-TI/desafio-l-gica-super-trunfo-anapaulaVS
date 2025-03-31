@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    
     printf("DESAFIO LÓGICA SUPER TRUNFO - MESTRE!\n");
 
     // Declaração das variáveis para armazenar os dados das Cartas do Jogo
